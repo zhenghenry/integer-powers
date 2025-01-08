@@ -9,6 +9,10 @@ This technique uses a decomposition of the linear power spectrum into analytical
 - [3. Ctabs/](3.%20Ctabs/): the exponent tables and the $k$'s and/or triangles to evaluate are here.
 
 ## Installation
+Create a new conda environment with:
+```
+conda create --name <ENV-NAME> --file requirements.txt
+```
 
 The main script is `1. source/babiscython_v4_ubuntu.pyx` and is written in Cython. 
 It calculates the function $L$.
